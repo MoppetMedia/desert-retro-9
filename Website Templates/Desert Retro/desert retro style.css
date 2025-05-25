@@ -1,0 +1,185 @@
+/* Header styles */
+
+.site-header {
+  background-color: #D98236; /* warm clay orange */
+  color: yellow;
+  text-align: center;
+  padding: 4rem 1rem;
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+/* Navigation styles */
+.retro-nav {
+  background-color: #FBEED3; /* warm sand */
+  border-bottom: 3px solid #D98236; /* clay orange */
+  padding: 1rem 0;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.retro-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.retro-nav a {
+  text-decoration: none;
+  color: #C1440E;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.retro-nav a:hover,
+.retro-nav a:focus {
+  background-color: #F4D6A0; /* soft gold highlight */
+  color: #5E2B1A; /* darker brown for contrast */
+}
+
+/* Contact Page */
+.contact {
+  padding: 4rem 2rem;
+  background-color: #fffaf3;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  color: #5E2B1A;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #C1440E;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 2px solid #D98236;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #fbeed3;
+}
+
+.contact-form button {
+  background-color: #D98236;
+  color: #fffaf3;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #C1440E;
+}
+
+/* Home Page */
+.hero {
+  background-image: url('./Images/Antelope\ Canyon\ Arizona.png'); /* Replace with a desert photo */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.site-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.cta-btn {
+  background-color: #D98236;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #C1440E;
+}
+
+/* About Page Images */
+.about-image-1 {
+  float: right; /* Makes the image float right */
+  margin-left: 1.5rem; /* Adds some space between image and text */
+  width: 40%; /* You can adjust the width as needed */
+  border-radius: 8px;
+}
+
+/* Body styles */
+body {
+  font-family: 'Spectral', sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #5E2B1A; /* dark brown */
+  background-color: #FBEED3; /* warm sand */
+}
+
+/* Footer styles */
+.site-footer {
+  background-color: #eebf95; /* warm clay orange */
+  color: #fffaf3; /* light cream */
+  text-align: center;;
+}
+
+/* Link styles */
+a {
+  color: #C1440E; /* clay orange */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
